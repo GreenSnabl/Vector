@@ -1,5 +1,5 @@
-#ifndef VECTOR_H
-#define VECTOR_H
+#ifndef VECTOR_GUARD
+#define VECTOR_GUARD
 #include <initializer_list>
 #include <algorithm>
 #include <iostream>
