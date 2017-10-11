@@ -61,7 +61,7 @@ private:
     
 };
 
-void printer(Vector&);
+void printer(Vector&);                                  // helper function
 
 #endif 
 
