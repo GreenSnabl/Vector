@@ -1,4 +1,4 @@
-#include "Vector.h"
+#include "VectorDouble.h"
 
 
 Vector& Vector::operator=(const Vector& arg)            // copy operator &
