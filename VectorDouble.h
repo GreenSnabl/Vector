@@ -1,5 +1,5 @@
-#ifndef VECTOR_H
-#define VECTOR_H
+#ifndef VECTORDOUBLE_H
+#define VECTORDOUBLE_H
 #include <initializer_list>
 #include <algorithm>
 #include <iostream>
@@ -11,7 +11,7 @@ public:
         {
         }
     
-    Vector(int s)                                       // constructor with
+    explicit Vector(int s)                                       // constructor with
         : sz{s}, elem{new double[s]}, space{s}          // set size
         {
             for (int i = 0; i < sz; ++i)
