@@ -25,8 +25,10 @@ Vector& Vector::operator=(Vector&& arg)                 // move operator &&
     delete[] elem;
     elem = arg.elem;
     sz = arg.sz;
+    space = arg.space;
     arg.elem = nullptr;
     arg.sz = 0;
+    arg.space = 0;
     return *this;
 
 }
